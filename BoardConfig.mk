@@ -17,6 +17,9 @@
 
 TARGET_OTA_ASSERT_DEVICE := SM-N900P,hltespr
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := hltespr
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_spr_defconfig
 
