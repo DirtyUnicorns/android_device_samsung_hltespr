@@ -15,7 +15,7 @@
 # inherit from common hlte
 -include device/samsung/hlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := SM-N900P,hltespr
+TARGET_OTA_ASSERT_DEVICE := SM-N900P,hltespr,SM-N900R4,hlteusc
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_spr_defconfig
