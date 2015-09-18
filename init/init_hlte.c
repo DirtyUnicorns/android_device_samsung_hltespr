@@ -56,8 +56,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     if (strstr(bootloader, "N900P")) {
         /* hltespr */
-        property_set("ro.build.fingerprint", "samsung/hltespr/hltespr:4.4.2/KOT49H/N900PVPUCNAB:user/release-keys");
-        property_set("ro.build.description", "hltespr-user 4.4.2 KOT49H N900PVPUCNAB release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltespr/hltespr:5.1.1/LVY48F:user/release-keys");
+        property_set("ro.build.description", "hltespr-user 5.1.1 LVY48F release-keys");
         property_set("ro.product.model", "SM-N900P");
         property_set("ro.product.device", "hltespr");
         cdma_properties("1", "310120", "Sprint");
